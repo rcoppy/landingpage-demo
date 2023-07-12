@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    flex-direction: column-reverse;
+    height: $header-mobile-height;
+    position: sticky;
+
+    @include media-breakpoint-up(md) {
+        height: $header-desktop-height;
+    }
+}
+
+.footer {
+    width: 100vw; 
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+}

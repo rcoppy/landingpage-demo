@@ -89,8 +89,6 @@ $success: #7952b3;
 // Custom styles
 //
 
-// @import "icon-list";
+@import "variables";
 
-body {
-  padding: 1.5rem;
-}
+@import "layout";
