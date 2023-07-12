@@ -1,0 +1,23 @@
+{
+  "name": "landingpage-demo",
+  "version": "1.0.0",
+  "description": "An example landing page for a hypothetical company.",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "author": "Alex Rupp-Coppi",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-pug": "^2.9.3",
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "jstransformer-markdown-it": "^3.0.0"
+  }
+}
